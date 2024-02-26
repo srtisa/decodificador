@@ -41,7 +41,10 @@ function copiarTexto(){
     navigator.clipboard.writeText(texto);
     let textoBotao = document.querySelector("#botao__copiar");
     textoBotao.textContent = "copiado!"
-    
+    limparArea();
     }
     
-
+function limparArea(){
+    let textoElemento = document.querySelector("#conteudo__ladoDireito__texto");
+    textoElemento.value = " ";
+}
