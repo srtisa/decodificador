@@ -46,5 +46,5 @@ function copiarTexto(){
     
 function limparArea(){
     let textoElemento = document.querySelector("#conteudo__ladoDireito__texto");
-    textoElemento.value = " ";
+    textoElemento.value = "";
 }
